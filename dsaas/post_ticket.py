@@ -8,11 +8,11 @@ import zlib
 import configparser
 
 # DEBUG：来月と過程する
-now         = dt.datetime.now() + relativedelta(months=1)
-last_month  = (now - relativedelta(months=1)).strftime('%m')
+#now         = dt.datetime.now() + relativedelta(months=1)
+#last_month  = (now - relativedelta(months=1)).strftime('%m')
 
-# now           = dt.datetime.now()
-# last_month    = (dt.datetime.today() - relativedelta(months=1)).strftime('%m')
+now           = dt.datetime.now()
+last_month    = (now - relativedelta(months=1)).strftime('%m')
 year        = now.strftime('%Y')
 month       = now.strftime('%m')
 day         = now.strftime('%d')
